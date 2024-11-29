@@ -125,6 +125,8 @@ def main ():
         else:
             converter = KRWtoCJF()
 
+    print(f"{country_choice}를 선택하셨습니다. 현재 환율은 다음과 같습니다:")
+    print(f"1 단위 {country_choice} 통화당 {converter.get_rate()} 원입니다.")
 
     
 main()
